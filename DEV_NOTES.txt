@@ -1,0 +1,8 @@
+mvnw.cmd spring-boot:run
+port ==> 8761
+
+
+
+stripe payment_intents confirm xxxx --payment-method=pm_card_visa
+
+stripe listen --forward-to http://localhost:8085/api/payments/webhook
