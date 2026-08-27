@@ -103,22 +103,26 @@ stripe listen --forward-to http://localhost:8085/api/payments/webhook
 
 
 
-## Application Screenshots
+## 📸 Application Screenshots
 
-### Architecture
-![PayCart Architecture](docs/architecture.png)
+### Home Page
+![PayCart Home Page](Docs/home.png)
 
-### Home
-![Home](docs/home.png)
+### Products Page
+![PayCart Products Page](Docs/products.png)
 
-### Products
-![Products](docs/products.png)
+### Shopping Cart
+![PayCart Shopping Cart](Docs/cart.png)
 
-### Cart
-![Cart](docs/cart.png)
+### Checkout Page
+![PayCart Checkout Page](Docs/checkout.png)
 
-### Checkout
-![Checkout](docs/checkout.png)
+### Stripe Secure Checkout
+![Stripe Checkout](Docs/stripe-checkout.png)
 
-### Payment Success
-![Payment Success](docs/payment-success.png)
+### Payment Successful
+![Payment Successful](Docs/payment-success.png)
+
+## 🏗️ System Architecture
+
+![PayCart Architecture](Docs/architecture.png) 
