@@ -132,12 +132,11 @@ User       Product         Cart
 
 
 
-
 ## ⚙️ Environment Variables
 
 Create the required environment variables before starting the backend services.
 
-```text
+
 MYSQL_PASSWORD=your_mysql_password
 JWT_SECRET=your_jwt_secret
 
@@ -151,14 +150,9 @@ VITE_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 
 
 
-
-Stripe Listen 
+## Stripe Listen 
 =============
 stripe listen --forward-to http://localhost:8085/api/payments/webhook
-
-
-
-
 
 
 ## 📸 Application Screenshots
