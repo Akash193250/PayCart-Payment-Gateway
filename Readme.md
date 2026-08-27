@@ -58,6 +58,53 @@ PayCart demonstrates a complete online shopping and payment workflow — from us
 | Notification Service | Sends payment confirmation emails |
 
 
+## 🔗 API Endpoints
+
+### User Service
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/users/register` | Register a new user |
+| POST | `/api/users/login` | Authenticate user and return JWT |
+
+### Product Service
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/products` | Get all products |
+| GET | `/api/products/{id}` | Get product by ID |
+| POST | `/api/products` | Create a product |
+| PUT | `/api/products/{id}` | Update a product |
+| DELETE | `/api/products/{id}` | Delete a product |
+
+### Cart Service
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/cart` | Get current user's cart |
+| POST | `/api/cart/add` | Add product to cart |
+| PUT | `/api/cart/update/{itemId}` | Update item quantity |
+| DELETE | `/api/cart/remove/{itemId}` | Remove item from cart |
+| DELETE | `/api/cart/clear` | Clear current user's cart |
+
+### Order Service
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/orders` | Create order from current cart |
+| GET | `/api/orders` | Get user's orders |
+| GET | `/api/orders/{orderId}` | Get order by ID |
+
+### Payment Service
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/payments` | Create Stripe PaymentIntent |
+| GET | `/api/payments` | Get payment information |
+| POST | `/api/payments/webhook` | Receive Stripe webhook events |
+
+### Notification Service
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/notifications` | Create and send notification email |
+
+> Protected endpoints require a JWT Bearer token through the `Authorization` header.
+
 ## Architecture
 
 React Frontend
