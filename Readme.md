@@ -1,24 +1,24 @@
-# Payment Integration Gateway
+# 🛒 PayCart – Payment Integration Gateway
 
-A full-stack e-commerce payment platform built using Java, Spring Boot, Microservices, React, MySQL and Stripe.
+A full-stack e-commerce payment platform built using **Spring Boot Microservices, React, MySQL, JWT Authentication, Stripe Payments, Eureka Service Discovery, and REST APIs**.
 
-## Features
+PayCart demonstrates a complete online shopping and payment workflow — from user authentication and product browsing to cart management, secure Stripe payment processing, order confirmation, automatic cart clearing, and email notifications.
 
-- User registration and login
-- JWT-based authentication and authorization
-- Product catalogue
-- Shopping cart management
-- Order creation and tracking
-- Stripe PaymentIntent integration
-- Stripe webhook processing
-- Automatic order status update
-- Automatic cart clearing after successful payment
-- Email confirmation using Gmail SMTP
-- Eureka service discovery
-- API Gateway routing
-- Swagger/OpenAPI documentation
-- Environment-variable based secret management
-- Global exception handling
+## ✨ Key Features
+
+- 🔐 JWT-based user authentication
+- 🛍️ Product browsing and cart management
+- ➕ Add, remove and update cart quantities
+- 📦 Automatic order creation
+- 💳 Secure Stripe payment integration
+- 🔔 Stripe webhook-based payment verification
+- ✅ Automatic order status update after successful payment
+- 🧹 Automatic cart clearing after payment
+- 📧 Email confirmation after successful payment
+- 🔎 Eureka service discovery
+- 🚪 Centralized API Gateway
+- ⚛️ Responsive React frontend
+- 🗄️ MySQL database persistence
 
 ## Tech Stack
 
