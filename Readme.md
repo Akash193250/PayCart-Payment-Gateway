@@ -151,7 +151,7 @@ VITE_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 
 
 ## Stripe Listen 
-=============
+
 stripe listen --forward-to http://localhost:8085/api/payments/webhook
 
 
