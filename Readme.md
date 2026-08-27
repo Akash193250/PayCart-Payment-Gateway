@@ -20,20 +20,22 @@ PayCart demonstrates a complete online shopping and payment workflow — from us
 - ⚛️ Responsive React frontend
 - 🗄️ MySQL database persistence
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-### Backend
-- Java
-- Spring Boot
-- Spring Security
-- Spring Cloud
-- Netflix Eureka
-- Spring Cloud API Gateway
-- JDBC / JdbcTemplate
-- MySQL
-- Maven
-- Stripe Java SDK
-- JavaMailSender
+| Category | Technologies |
+|---|---|
+| Backend | Java, Spring Boot |
+| Frontend | React, Vite, JavaScript, HTML, CSS |
+| Database | MySQL |
+| Authentication | JWT |
+| Payment Gateway | Stripe |
+| Service Discovery | Netflix Eureka |
+| API Gateway | Spring Cloud Gateway |
+| Communication | REST APIs |
+| Email | Spring Mail |
+| Build Tool | Maven |
+| Version Control | Git & GitHub |
+
 
 ### Frontend
 - React
@@ -42,16 +44,19 @@ PayCart demonstrates a complete online shopping and payment workflow — from us
 - React Router
 - Stripe React SDK
 
-## Microservices
+## 🧩 Microservices
 
-- Eureka Server
-- API Gateway
-- User Service
-- Product Service
-- Cart Service
-- Order Service
-- Payment Service
-- Notification Service
+| Service | Responsibility |
+|---|---|
+| API Gateway | Central entry point for backend APIs |
+| Eureka Server | Service registration and discovery |
+| User Service | Registration, login and JWT authentication |
+| Product Service | Product management and retrieval |
+| Cart Service | Shopping cart and quantity management |
+| Order Service | Order creation and status management |
+| Payment Service | Stripe PaymentIntent and webhook processing |
+| Notification Service | Sends payment confirmation emails |
+
 
 ## Architecture
 
