@@ -105,6 +105,22 @@ PayCart demonstrates a complete online shopping and payment workflow — from us
 
 > Protected endpoints require a JWT Bearer token through the `Authorization` header.
 
+## ⚙️ Environment Variables
+
+Create the required environment variables before starting the backend services.
+
+```text
+MYSQL_PASSWORD=your_mysql_password
+JWT_SECRET=your_jwt_secret
+
+STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
+
+MAIL_USERNAME=your_email_address
+MAIL_APP_PASSWORD=your_google_app_password
+
+VITE_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+
 ## Architecture
 
 React Frontend
